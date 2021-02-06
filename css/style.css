@@ -1,0 +1,309 @@
+body {
+	width: 100%;
+	height: 1700px;
+	position: absolute;
+	background-color: #fff; 
+	background-repeat: no-repeat;
+	background-image: url(../images/kolaj.jpg);
+	background-attachment: fixed;
+	position: 0 0;
+	margin: 0 0;
+
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;	
+	z-index: 3;
+	border-radius: 4px;
+}
+
+.logokino a, .logokino .topmenudiv {
+	display: inline-block;
+}
+
+.search {
+	width: 30px;
+}
+
+#lgn {
+	padding: 6px 12px;
+	font-family: Segoe UI;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 16px;
+	background-color: #e7044c;
+	position: relative;
+	left: 80px;
+	bottom: 5px;
+
+}
+
+#lgn:hover {
+	background-color: #000;
+	border: none;
+	border-radius: 16px;
+	transition: background-color 0.6s ease-in-out;
+}
+
+
+.logotype {
+	margin: 32px 0 0 255px;
+	position: relative;
+	bottom: 15px;
+
+}
+
+.bg {
+	width: 100%;
+	height: 665px;
+	margin: 0 0;
+	position: relative;
+	z-index: 0;
+}
+
+.box {
+	float: left;
+	z-index: 1;
+	top: 150px;
+	left: 250px;
+	position: absolute;
+}
+
+.box1 {
+	position: absolute;	
+	width: 300px;
+	border-radius: 5px;
+}
+.box2 a {
+	font-family: Segoe UI;
+	font-size: 33px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 340px;
+	top: -20px;
+}
+
+.box3 span{
+	width: 650px;
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 340px;
+	top: 55px;
+}
+
+.box3 .imbd {
+	position: absolute;
+	left: 560px;
+	top: 55px;
+}
+
+.box4 span {
+	width: 670px;
+	font-family: Segoe UI;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	left: 340px;
+	top: 90px;
+}
+
+.box5 a {
+	width: 200px;
+	padding: 10px 15px;
+	font-family: Segoe UI;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	border: 2px solid white;
+	border-radius: 18px;
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	left: 340px;
+	top: 250px;
+}
+
+.box5 a:hover {
+	background-color: rgba(255,255,255,1);
+	color: black;
+	transition: 0.5s ease-in-out;
+}
+
+
+
+.topmenu li, .topmenu li a {
+	float: left;
+	list-style: none;
+	font-family: Segoe UI;
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	margin: 0px 10px 0px 10px;
+	padding: 2px 2px;
+	z-index: 4;
+	opacity: 1;
+}
+
+.graybut, .strana, .radio, .srch {
+	background-color: rgb(0, 0, 0, 0);
+	transition: background-color 0.6s ease-in-out;
+}
+
+.radio:hover{
+	background-color: #0a79bc;
+	border: none;
+	border-radius: 4px;
+}
+
+.strana:hover{
+	background-color: #eb0a50;
+	border: none;
+	border-radius: 4px;
+}
+
+.graybut:hover{
+	background-color: #21221f;
+	border: none;
+	border-radius: 4px;
+}
+
+.srch {
+	position: relative;
+	left: 90px;
+}
+
+
+.topmenu {
+	position: relative;
+	bottom: 8px;
+}
+
+.opacity300 {
+	height: 300px;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0 0;
+	z-index: 1;
+	position: relative;
+
+}
+
+h2 {
+	width: 1580px;
+	font-family: Segoe UI;
+	font-size: 40px;
+	letter-spacing: -1.5px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+	margin: 50px auto;
+}
+
+.logoblok img {
+	width: 130px;
+	vertical-align: middle;
+	z-index: 2;
+}
+
+div .wr img {
+	width: 80px;
+}
+
+div .pardrhb img {
+	width: 120px;
+}
+.logoblok {
+	width: 80%;
+	margin: 0px 0px 0px 300px;
+	position: absolute;
+	z-index: 2;
+}
+
+div .logos {
+	display: inline-block;
+	position: relative;
+	margin: 150px 50px 0px 0px;
+}
+
+.cont_bg {
+	width: 100%;
+	height: 880px;
+	background-color: #fff;
+	
+}
+
+.advers {
+	margin: 30px 0px 30px 240px;
+}
+
+div h4 {
+	width: 250px;
+	font-family: Segoe UI;
+	font-size: 33px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	left: 250px;
+	margin: 0px;
+}
+
+.posts {
+	float: left;
+	margin: 12px;
+	position: relative;
+	left: 228px;
+
+}
+
+.post1, .post2, .post3, .post4, .posts img {
+	width: 257px;
+	height: 388px;
+}
+
+.shapeborder_1 {
+	width: 257px;
+	padding: 17px 0px;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	top: 500px;
+	font-family: Segoe UI;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	top: 307px;
+	z-index: 0;
+}
+
+.shapeborder_2 {
+	width: 257px;
+	padding: 29px 0px;
+	background-color: rgba(0, 0, 0, 0.75);
+	position: absolute;
+	top: 500px;
+	font-family: Segoe UI;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	top: 307px;
+	z-index: 0;
+}
